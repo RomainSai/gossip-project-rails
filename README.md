@@ -8,7 +8,7 @@ Version de ruby utilisée - ruby '2.5.1'
 How to install and test?
 
 Download or clone the repository
-$ git clone https://github.com/RomainSai/Usine-Project-Rails  
+$ git clone https://github.com/RomainSai/gossip-project-rails
 Run the command bundle install to install the necessary gems
 $ bundle install
 
@@ -19,14 +19,20 @@ $ rails db:seed
 
 Database structure:
 
-2 models:
+7 models:
 
-* assembly
-* part
+* user
+* city
+* gossip
+* tag
+* private_message
+* comment
+* like
+
 
 1 table "join":
 
-AssemblyPart
+* GossipTag
 
 
 Enjoy :)
